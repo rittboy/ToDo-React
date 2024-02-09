@@ -31,3 +31,58 @@ h1{
   gap: 0.85rem;
   min-width: 26.5rem;
 }
+.todo-item__text{
+  min-width: 10rem;
+  font-size: 1.25rem;
+}
+.input-group{
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+input[type='text']{
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+input[type='text']:focus{
+  border-color: #007bff;
+}
+input[type='checkbox']{
+  margin-right: 0.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.btn-group{
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+button{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  outline: none;
+}
+button:hover{
+  background-color: #0059d9;
+}
+button:active{
+  background-color: #005cbf;
+}
+button:disabled{
+  background-color: #adadad;
+  cursor: default;
+}
+ul{
+  list-style-type: none;
+  margin-top: 2rem;
+}
