@@ -29,8 +29,8 @@ function App() {
       completed: !todo.completed
     } : todo)));
   }
-  function deleteTodo(id) {
-    setTodos(todos.filter(todo => todo.id !== false));
+  function deleteTodo(id){
+    setTodos(todos.filter(todo => todo.id !== id));
   }
   function toggleUpdating(id) {
     setUpdating(!updating);
